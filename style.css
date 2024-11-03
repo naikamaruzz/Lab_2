@@ -1,0 +1,225 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Layout Styling */
+.container {
+    display: flex;
+    background-color: #e4e6ff;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    background-color: #e2cb95;
+    width: 20%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.profile-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.sidebar h2 {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.sidebar nav a {
+    display: block;
+    background-color: #a8a9ff;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 100%;
+}
+
+.sidebar nav a:hover {
+    background-color: #7478e8;
+    color: #fff;
+}
+
+/* Main Content Styling */
+.main-content {
+    width: 100vw;
+    padding: 20px;
+    background-color: #e4e6ff;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.nav-links a {
+    background-color: #9a9aff;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.nav-links a:hover {
+    background-color: #7478e8;
+    color: #fff;
+}
+
+.content-frame {
+    width: 100%;
+    height: 600px;
+    border: none;
+}
+
+/* General Styles for Hobbies Page */
+.hobbies-container {
+    display: flex;
+    background-color: #e4e6ff;
+    width: 100vw;
+}
+
+.hobbies-sidebar {
+    background-color: #b3c5ff;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 100vh; /* Full height of the viewport */
+    
+}
+
+.hobbies-sidebar h2 {
+    transform: rotate(-90deg);
+    color: #000000;
+    font-size: 1.5em;
+    margin: 0;
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+
+/* Main Content Styling */
+.hobbies-content {
+    margin-left: 5%;
+    padding: 20px;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+.hobby-section {
+    border: 2px solid #d3d3d3;
+    border-radius: 10px;
+    background-color: #f4f4ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    flex: 1 1 300px;
+    max-width: 300px;
+    width: calc(33.33% - 20px);
+}
+
+.hobby-image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.hobby-text h3 {
+    color: #333;
+    margin: 0;
+}
+
+.hobby-text p {
+    margin: 10px 0;
+}
+
+.hobby-text ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 5px 0;
+}
+
+.hobby-text ul li {
+    margin-left: 15px;
+}
+
+/* Layout Styling for Campus Page */
+.campus-container {
+    display: flex;
+    background-color: #e4e6ff;
+    width: 100vw;
+}
+
+.campus-sidebar {
+    background-color: #b3c5ff;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 100vi;
+}
+
+.campus-sidebar h2 {
+    transform: rotate(-90deg);
+    color: #000000;
+    font-size: 1.5em;
+    margin: 0;
+    white-space: nowrap;
+}
+
+/* Main Content Styling for Campus Page */
+.campus-content {
+    margin-left: 5%;
+    padding: 20px;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+.campus-photo-section {
+    border: 2px solid #d3d3d3;
+    border-radius: 10px;
+    background-color: #f4f4ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    flex: 1 1 300px;
+    max-width: 300px;
+    width: calc(33.33% - 20px);
+}
+
+.campus-photo-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+
